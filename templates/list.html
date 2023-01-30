@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <ul>
+        {% for value in data %}
+        <li>
+            <p>{{value.date}}</p>
+            <p>{{value.value}}</p>
+            <p>{{value.cpf}}</p>
+            <p>{{value.card}}</p>
+            <p>{{value.hour}}</p>
+            <p>{{value.store_owner}}</p>
+            <p>{{value.store_name}}</p>
+        </li>
+        {% endfor %}
+    </ul>
+</body>
+
+</html>

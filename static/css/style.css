@@ -1,0 +1,45 @@
+html,
+body {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: gray;
+    background-image: url("../static/img/img.png");
+}
+
+button {
+    cursor: pointer;
+}
+
+main {
+    width: 100%;
+    max-width: 50rem;
+    min-height: 25rem;
+    display: flex;
+    border: 10px double #ffffff;
+}
+
+h2 {
+    font-size: 2.5rem;
+    color: #ffffff;
+}
+
+p {
+    font-size: 1.5rem;
+    color: #ffffff;
+}
+
+form {}
+
+img {
+    width: 100%;
+    max-width: 50vw;
+    height: 100vh;
+    z-index: -2;
+}
+
+p {
+    text-align: center;
+}
