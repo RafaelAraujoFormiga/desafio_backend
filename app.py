@@ -21,18 +21,7 @@ def open_file(file):
             line[48:62],
             line[62:81],
         )
-        data.append(
-            {
-                dict.type,
-                dict.date,
-                dict.value,
-                dict.store_name,
-                dict.store_owner,
-                dict.card,
-                dict.cpf,
-                dict.hour,
-            }
-        )
+        data.append(dict)
 
 
 @app.route("/")
@@ -45,7 +34,7 @@ def upload():
     file = request.files["file-sent"]
 
     open_file(file)
-    return render_template("list.html", data)
+    return render_template("list.html", data=data)
 
 
 if __name__ == "__main__":
