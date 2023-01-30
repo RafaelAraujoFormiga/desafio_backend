@@ -14,12 +14,12 @@
         {% for value in data %}
         <li>
             <h3>{{value.store_owner}}</h3>
-            <p>Data: {{value.date}}</p>
-            <p>Hora: {{value.hour}}</p>
-            <p>Nome da loja: {{value.store_name}}</p>
-            <p>CPF: {{value.cpf}}</p>
-            <p>Número do cartão: {{value.card}}</p>
-            <p>Saldo: R$ {{value.value}}</p>
+            <p>Data: <span>{{value.date}}</span></p>
+            <p>Hora: <span>{{value.hour}}</span></p>
+            <p>Nome da loja: <span>{{value.store_name}}</span></p>
+            <p>CPF: <span>{{value.cpf}}</span></p>
+            <p>Número do cartão: <span>{{value.card}}</span></p>
+            <p>Saldo: <span>R$ {{value.value}}</span></p>
         </li>
         {% endfor %}
     </ul>
