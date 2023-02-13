@@ -1,11 +1,22 @@
 # Nome do projeto: Kenzie Register
 
+# Tecnologias/Linguagens:
+<li>Python3
+<li>Flasck
+<li>HTML
+<li>CSS
+
 #  Passos de instalação
 
 ## Crie um ambiente virtual 
 ````
 python3 -m venv venv
 ````
+ou
+````
+python -m venv venv
+````
+## Em seguida execute o ambiente
 ````    
 source venv/bin/activate 
 ````
