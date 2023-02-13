@@ -21,8 +21,10 @@ flask run
 Press CTRL+C to quit
 ````
 
+## Para testes a aplicaçao possui um arquivo CNAB.txt para uploade na aplicação.
+
+
 
 Obs. A aplicação ainda não possui uma banco de dados vinculado.
-
 
 
